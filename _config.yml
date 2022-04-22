@@ -11,9 +11,9 @@ title                    : "Sunit Bhattacharya"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://subdroid.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "subdroid/subdroid.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -83,7 +83,7 @@ author:
   name             : "Sunit Bhattacharya"
   avatar           : "p1.png"
   bio              : "PhD student at the Institute of Formal and Applied Linguistics, Faculty of Mathematics and Physics, Charles University"
-  location         : "Prague, Czech Republiv"
+  location         : "Prague, Czech Republic"
   employer         : "Charles University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=bK-PHbIAAAAJ&hl=en"
