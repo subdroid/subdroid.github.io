@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Sunit Bhattacharya"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -86,7 +86,7 @@ author:
   location         : "Prague, Czech Republiv"
   employer         : "Charles University"
   pubmed           : 
-  googlescholar    : "ttps://scholar.google.com/citations?user=bK-PHbIAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=bK-PHbIAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
