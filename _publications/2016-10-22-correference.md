@@ -8,8 +8,3 @@ venue: '2016 International Conference on Advances in Computing, Communications a
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/7732101'
 citation: 'D. Das and S. Bhattacharya, "Coreference between subjective expression and holder: A classification perspective," 2016 International Conference on Advances in Computing, Communications and Informatics (ICACCI), 2016, pp. 535-541, doi: 10.1109/ICACCI.2016.7732101.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-<!-- [Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
