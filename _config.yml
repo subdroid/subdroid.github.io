@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sunit Bhattacharya"
+title                    : "Website of Sunit Bhattacharya"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Sunit Bhattacharya"
+description              : &description "PhD student at the Institute of Formal and Applied Linguistics, Faculty of Mathematics and Physics, Charles University"
 url                      : https://subdroid.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "subdroid/subdroid.github.io"
