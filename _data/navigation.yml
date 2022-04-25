@@ -18,5 +18,8 @@ main:
   - title: "CV"
     url: /cv/
     
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Photography"
+    url: /photography/
+
+  - title: "Creative Writing"
+    url: /writing/
