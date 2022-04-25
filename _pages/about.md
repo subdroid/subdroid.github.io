@@ -37,7 +37,13 @@ I use Linux and prefer Python for my work. Although given enough time, I would l
 * Wage: An extremely private issue 
 * Height: A bit on the shorter side
 * Weight: A bit on the non-shorter side
-* Nerdiness status: !["This"](nerd_stat.gif)
+* Nerd status:
+<div>
+<aside>
+<a href="http://www.nerdtests.com/ft_nq.php">
+<img src="http://www.nerdtests.com/images/ft/nq/b1ccbdb62e.gif" alt="I am nerdier than 99% of all people. Are you a nerd? Click here to take the Nerd Test, get geeky images and jokes, and write on the nerd forum!"></a>
+</aside>
+</div>
 * Eyes: Black 
 * Hair: Black
 * Soul: Darker
