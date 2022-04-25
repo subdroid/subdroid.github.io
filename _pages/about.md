@@ -37,7 +37,7 @@ I use Linux and prefer Python for my work. Although given enough time, I would l
 * Wage: An extremely private issue 
 * Height: A bit on the shorter side
 * Weight: A bit on the non-shorter side
-* IQ: A computer test said 150+ and I always believe the computers! But that was before grad-school. So the number might be much less now. 
+* Nerdiness status: !["This"](nerd_stat.gif)
 * Eyes: Black 
 * Hair: Black
 * Soul: Darker
