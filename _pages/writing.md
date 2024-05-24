@@ -4,4 +4,4 @@ title: "Misc"
 author_profile: true
 ---
 
-Choti game [here](./sample_quiz.hrml) 
+Choti game [here](./sample_quiz.html) 
