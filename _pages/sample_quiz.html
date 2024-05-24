@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Text-Based Quiz</title>
+  <meta charset="UTF-8">
+  <title>Text-Based Quiz</title>
 </head>
 <body>
-    <h1>Welcome to the Quiz!</h1>
-    <p>Answer all 5 questions correctly to proceed.</p>
-    <div id="question-container">
-        </div>
-    <button type="submit" id="submitBtn" disabled>Submit Answers</button>
-    <script>
-        const questionContainer = document.getElementById('question-container');
-        const submitBtn = document.getElementById('submitBtn');
-        let currentQuestion = 0;
-        let score = 0;
-        const questions = [
-            { question: "What is the capital of India?", answer: "delhi" },
-            { question: "What is the tallest mountain in the world?", answer: "mount everest" },
-            { question: "What is the largest ocean on Earth?", answer: "pacific ocean" },
-            { question: "In which year did India gain independence?", answer: "1947" },
-            { question: "What is the national currency of Japan?", answer: "yen" },
-        ];
+  <h1>Welcome to the Quiz!</h1>
+  <p>Answer all 5 questions correctly to proceed.</p>
+  <div id="question-container">
+  </div>
+  <button type="submit" id="submitBtn">Submit Answers</button>
+  <script>
+    const questionContainer = document.getElementById('question-container');
+    const submitBtn = document.getElementById('submitBtn');
+    let currentQuestion = 0;
+    let score = 0;
+    const questions = [
+      { question: "What is the capital of India?", answer: "delhi" },
+      { question: "What is the tallest mountain in the world?", answer: "mount everest" },
+      { question: "What is the largest ocean on Earth?", answer: "pacific ocean" },
+      { question: "In which year did India gain independence?", answer: "1947" },
+      { question: "What is the national currency of Japan?", answer: "yen" },
+    ];
 
-        function displayQuestion() {
-            if (currentQuestion >= questions.length) {
-                questionContainer.textContent = `You answered ${score} out of 5 questions correctly!`;
-                if (score === 5) {
-                    submitBtn.textContent = "Congratulations! Proceed";
-                    submitBtn.disabled = false;
-                    submitBtn.addEventListener('click', function() {
-                        window.location.href = 'https://www.example.com/success'; // Replace with your success link
-                    });
-                } else {
-                    submitBtn.textContent = "Try Again";
-                    submitBtn.disabled = true;
-                }
-                return;
-            }
-            const question = questions[currentQuestion];
-            questionContainer.innerHTML = `<h3>Question ${currentQuestion + 1}</h3><p>${question.question}</p><input type="text" id="answer">`;
+    function displayQuestion() {
+      if (currentQuestion >= questions.length) {
+        questionContainer.textContent = `You answered ${score} out of 5 questions correctly!`;
+        if (score === 5) {
+          submitBtn.textContent = "Congratulations! Proceed";
+        } else {
+          submitBtn.textContent = "Try Again";
         }
+        submitBtn.disabled = true; // Disable button after showing final score
+        return;
+      }
+      const question = questions[currentQuestion];
+      questionContainer.innerHTML = `<h3>Question ${currentQuestion + 1}</h3><p>${question.question}</p><input type="text" id="answer">`;
+      submitBtn.disabled = false; // Enable button after showing the question
+    }
 
-        displayQuestion();
+    displayQuestion();
 
-        submitBtn.addEventListener('click', function() {
-            const answer = document.getElementById('answer').value.toLowerCase();
-            if (answer === questions[currentQuestion].answer) {
-                score++;
-            }
-            currentQuestion++;
-            displayQuestion();
-            document.getElementById('answer').value = ""; // Clear answer field for next question
-        });
-    </script>
+    submitBtn.addEventListener('click', function() {
+      const answer = document.getElementById('answer').value.toLowerCase();
+      if (answer === questions[currentQuestion].answer) {
+        score++;
+        questionContainer.innerHTML = "Correct!";
+      } else {
+        questionContainer.innerHTML = `Incorrect! The answer is "${questions[currentQuestion].answer}"`;
+      }
+      currentQuestion++;
+      document.getElementById('answer').value = ""; // Clear answer field for next question
+      displayQuestion();
+    });
+  </script>
 </body>
 </html>
