@@ -36,7 +36,8 @@
       }
       const question = questions[currentQuestion];
       questionContainer.innerHTML = `<h3>Question ${currentQuestion + 1}</h3><p>${question.question}</p><input type="text" id="answer">`;
-      submitBtn.disabled = false; // Enable button after showing the question
+      // Enable the submit button only after showing the question
+      submitBtn.disabled = false;
     }
 
     displayQuestion();
