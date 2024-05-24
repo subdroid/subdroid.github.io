@@ -23,3 +23,6 @@ main:
 
   - title: "Creative Writing"
     url: /writing/
+
+  -title: "Misc"
+    url: /misc/
