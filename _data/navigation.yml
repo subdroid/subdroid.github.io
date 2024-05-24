@@ -21,8 +21,5 @@ main:
   - title: "Photography"
     url: /photography/
 
-  - title: "Creative Writing"
+  - title: "Misc"
     url: /writing/
-
-  -title: "Misc"
-    url: /misc/
