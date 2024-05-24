@@ -7,9 +7,8 @@
 <body>
   <h1>Welcome to the Quiz!</h1>
   <p>Answer all 5 questions correctly to proceed.</p>
-  <div id="question-container">
-  </div>
-  <button type="submit" id="submitBtn">Submit Answers</button>
+  <div id="question-container"></div>
+  <button type="button" id="submitBtn">Submit Answer</button>
   <script>
     const questionContainer = document.getElementById('question-container');
     const submitBtn = document.getElementById('submitBtn');
@@ -25,7 +24,7 @@
 
     function displayQuestion() {
       if (currentQuestion >= questions.length) {
-        questionContainer.textContent = `You answered ${score} out of 5 questions correctly!`;
+        questionContainer.innerHTML = `You answered ${score} out of 5 questions correctly!`;
         if (score === 5) {
           submitBtn.textContent = "Congratulations! Proceed";
         } else {
@@ -35,25 +34,26 @@
         return;
       }
       const question = questions[currentQuestion];
-      questionContainer.innerHTML = `<h3>Question ${currentQuestion + 1}</h3><p>${question.question}</p><input type="text" id="answer">`;
-      // Enable the submit button only after showing the question
-      submitBtn.disabled = false;
+      questionContainer.innerHTML = `
+        <h3>Question ${currentQuestion + 1}</h3>
+        <p>${question.question}</p>
+        <input type="text" id="answer">
+      `;
     }
-
-    displayQuestion();
 
     submitBtn.addEventListener('click', function() {
       const answer = document.getElementById('answer').value.toLowerCase();
       if (answer === questions[currentQuestion].answer) {
         score++;
-        questionContainer.innerHTML = "Correct!";
+        questionContainer.innerHTML = "<p>Correct!</p>";
       } else {
-        questionContainer.innerHTML = `Incorrect! The answer is "${questions[currentQuestion].answer}"`;
+        questionContainer.innerHTML = `<p>Incorrect! The answer is "${questions[currentQuestion].answer}".</p>`;
       }
       currentQuestion++;
-      document.getElementById('answer').value = ""; // Clear answer field for next question
-      displayQuestion();
+      setTimeout(displayQuestion, 2000); // Show next question after a 2-second delay
     });
+
+    displayQuestion();
   </script>
 </body>
 </html>
