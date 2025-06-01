@@ -3,7 +3,7 @@ layout: default
 title: Subdroid Ramblings
 ---
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@ title: Subdroid Ramblings
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <button id="theme-toggle" class="magic-link">Swith to Light Mode</button>
+    <button id="theme-toggle" class="magic-link">Swith Dark Mode</button>
     
     <div class="container">
         <div class="profile-section animate-in">
@@ -25,7 +25,8 @@ title: Subdroid Ramblings
             <h2>🧠 About Me</h2>
             <p>
                 I’m Sunit Bhattacharya — AI engineer at <a href="https://prorata.ai" target="_blank">ProRata.ai</a>, systems thinker, and creative technologist.
-                I explore the intersection of language, attention, and meaning through code, images, and sound.
+                I explore the intersection of language, attention, and meaning through code, images, and sound. Currently I am working on building and
+                improving <a href="https://gist.ai" target="_blank>Gist</a>, which is an AI answer engine.
             </p>
             <p>
                 <a href="/about" class="magic-link">Read more about me →</a>
