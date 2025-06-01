@@ -40,7 +40,8 @@ title: Subdroid Ramblings
 
         <section class="section animate-in">
             <h2>📓 Blog</h2>
-            <p>Coming soon. Essays, dev logs, and stream-of-consciousness posts on AI, ADHD, and systems thinking.</p>
+            <p>Essays, dev logs, and stream-of-consciousness posts on AI, ADHD, and systems thinking.</p>
+            <p><a href="/blog" class="magic-link">Read all posts →</a></p>
         </section>
 
         <section class="section animate-in">
