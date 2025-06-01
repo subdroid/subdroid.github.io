@@ -3,7 +3,6 @@ layout: default
 title: Photography
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

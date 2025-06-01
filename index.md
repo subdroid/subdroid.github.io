@@ -3,20 +3,20 @@ layout: default
 title: Subdroid Ramblings
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/lightbox.css">
 </head>
 <body>
     <button id="theme-toggle" class="magic-link">Swith Dark Mode</button>
     
     <div class="container">
         <div class="profile-section animate-in">
-            <img src="assets/images/profile.jpeg" alt="Profile Photo" class="profile-photo">
+            <img src="assets/images/profile.jpeg" alt="Profile Photo" class="profile-photo" data-lightbox data-lightbox-group="profile">
             <h1>Subdroid Ramblings</h1>
             <p>A digital corner for unfinished thoughts, strange ideas, technical experiments, and half-lit dreams.</p>
         </div>
@@ -72,5 +72,6 @@ title: Subdroid Ramblings
     </div>
 
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/lightbox.js"></script>
 </body>
 </html>
