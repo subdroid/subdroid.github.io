@@ -1,5 +1,0 @@
-# Baal
-
-
-## Fiction
-super baal
