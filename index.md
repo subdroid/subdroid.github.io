@@ -47,7 +47,11 @@ title: Subdroid Ramblings
             <h2>📷 Photos</h2>
             <p>Exploring blur, light, and urban loneliness.</p>
             <blockquote>
-                <p>A photo gallery will be embedded here soon using a responsive grid.</p>
+                <p>Browse my photos: 
+                    <a href="/personal-photos" class="magic-link">Personal</a> | 
+                    <a href="/travel-photos" class="magic-link">Travel</a> | 
+                    <a href="/photography" class="magic-link">Photography</a>
+                </p>
             </blockquote>
         </section>
 
@@ -58,7 +62,7 @@ title: Subdroid Ramblings
 
         <section class="section animate-in">
             <h2>📬 Contact</h2>
-            <!-- <p>Reach me at <a href="mailto:your@email.com">your@email.com</a></p> -->
+            <!-- <p>Reach me at <a href="mailto:sunit@prorata.ai">sunit@prorata.ai</a></p> -->
         </section>
 
         <footer class="section animate-in">
