@@ -12,7 +12,7 @@ title: Subdroid Ramblings
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <button id="theme-toggle" class="magic-link">Toggle Light Mode</button>
+    <button id="theme-toggle" class="magic-link">Swith to Light Mode</button>
     
     <div class="container">
         <div class="profile-section animate-in">
@@ -23,7 +23,13 @@ title: Subdroid Ramblings
 
         <section class="section animate-in">
             <h2>🧠 About Me</h2>
-            <p>I'm an explorer of systems — computational, philosophical, biological. I build, write, and sometimes disappear into city shadows with a camera or mic.</p>
+            <p>
+                I’m Sunit Bhattacharya — AI engineer at <a href="https://prorata.ai" target="_blank">ProRata.ai</a>, systems thinker, and creative technologist.
+                I explore the intersection of language, attention, and meaning through code, images, and sound.
+            </p>
+            <p>
+                <a href="/about" class="magic-link">Read more about me →</a>
+            </p>
         </section>
 
         <section class="section animate-in">
