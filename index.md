@@ -3,7 +3,7 @@ layout: default
 title: Subdroid Ramblings
 ---
 
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@ title: Subdroid Ramblings
     
     <div class="container">
         <div class="profile-section animate-in">
-            <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-photo">
+            <img src="assets/images/profile.jpeg" alt="Profile Photo" class="profile-photo">
             <h1>Subdroid Ramblings</h1>
             <p>A digital corner for unfinished thoughts, strange ideas, technical experiments, and half-lit dreams.</p>
         </div>
@@ -24,9 +24,9 @@ title: Subdroid Ramblings
         <section class="section animate-in">
             <h2>🧠 About Me</h2>
             <p>
-                I’m Sunit Bhattacharya — AI engineer at <a href="https://prorata.ai" target="_blank">ProRata.ai</a>, systems thinker, and creative technologist.
+                I'm Sunit Bhattacharya — AI engineer at <a href="https://prorata.ai" target="_blank">ProRata.ai</a>, systems thinker, and creative technologist.
                 I explore the intersection of language, attention, and meaning through code, images, and sound. Currently I am working on building and
-                improving <a href="https://gist.ai" target="_blank>Gist</a>, which is an AI answer engine.
+                improving <a href="https://gist.ai" target="_blank">Gist</a>, which is an AI answer engine.
             </p>
             <p>
                 <a href="/about" class="magic-link">Read more about me →</a>
