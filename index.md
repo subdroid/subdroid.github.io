@@ -12,7 +12,7 @@ title: Subdroid Ramblings
     <link rel="stylesheet" href="/assets/css/lightbox.css">
 </head>
 <body>
-    <button id="theme-toggle" class="magic-link">Swith Dark Mode</button>
+    <button id="theme-toggle" class="magic-link">Switch to dark mode</button>
     
     <div class="container">
         <div class="profile-section animate-in">
@@ -22,7 +22,7 @@ title: Subdroid Ramblings
         </div>
 
         <section class="section animate-in">
-            <h2>🧠 About Me</h2>
+            <h2>About Me</h2>
             <p>
                 I'm Sunit Bhattacharya — AI engineer at <a href="https://prorata.ai" target="_blank">ProRata.ai</a>, systems thinker, and creative technologist.
                 I explore the intersection of language, attention, and meaning through code, images, and sound. Currently I am working on building and
@@ -36,6 +36,12 @@ title: Subdroid Ramblings
         <section class="section animate-in">
             <h2>⚙️ Projects</h2>
             <p>Coming Soon.</p>
+        </section>
+
+        <section class="section animate-in">
+            <h2>Life Philosophies</h2>
+            <p>Because my wife wants me to document pseudo-philosophical shit that I write.</p>
+            <p><a href="/philosophy" class="magic-link">Read all of that shit →</a></p>
         </section>
 
         <section class="section animate-in">
