@@ -6,7 +6,7 @@ title: About
 # About
 
 About
-I’m an AI Engineer at ProRata AI (prorata.ai), where I work on the Inference Engine that powers gist.ai
+I’m an AI Engineer at [ProRata AI](www.prorata.ai), where I work on the Inference Engine that powers [gist.ai](gist.ai)
 and Gist Answers. My work focuses on building scalable Retrieval-Augmented Generation (RAG) and LLM inference systems that make enterprise knowledge search faster, more accurate, and contextually grounded.
 
 Core focus areas include:
