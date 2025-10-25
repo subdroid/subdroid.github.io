@@ -5,6 +5,18 @@ title: About
 
 # About
 
-I’m a research engineer at ProRata, working on the Inference engine powering gist.ai and Gist Answers. my job involves working on retrieval-augmented generation (RAG) systems and scalable inference pipelines for large language models. My current focus is on building and optimizing our answer engine, optimizing query understanding and handling multi-turn grounding for context augmentation. I'm also tackling other real-world challenges of deploying LLMs: latency, relevance, hallucination, and context management. I have also experience with designing, implementing and deploying production grade RESTful systems. 
+About
+I’m an AI Engineer at ProRata AI (prorata.ai), where I work on the Inference Engine that powers gist.ai
+and Gist Answers. My work focuses on building scalable Retrieval-Augmented Generation (RAG) and LLM inference systems that make enterprise knowledge search faster, more accurate, and contextually grounded.
 
-Earlier, I worked on machine translation, natural language understanding, multimodal learning, and LLM interpretability, with a consistent interest in how language and meaning are encoded in deep neural networks. I care deeply about bridging the gap between research insights and production constraints, and I’m especially excited by work that combines core modeling improvements with measurable user impact.
+Core focus areas include:
+• Optimizing RAG and semantic retrieval architectures to improve search relevance and query understanding.
+• Designing strategies for multi-turn grounding, context augmentation, and hallucination mitigation.
+• Addressing production constraints around latency, cost, and effective context management.
+• Building and deploying resilient, production-grade RESTful inference services.
+
+Previously, I’ve worked on Machine Translation, Natural Language Understanding, Multimodal Learning, and LLM Interpretability.
+
+I’m passionate about bridging deep learning research and real-world deployment, translating modeling advances into measurable user impact at scale.
+
+Always open to conversations about RAG optimization, inference scaling, and LLM productization.
